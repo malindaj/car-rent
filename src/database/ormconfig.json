@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "username": "root",
+    "password": "9698",
+    "database": "yourcar",
+    "entities": ["dist/**/entities/*{.ts,.js}"],
+    "synchronize": true,
+    "migration": ["src/migration/*{.ts,.js}"],
+    "cli": {
+        "migrationDir": "src/migration"
+    }
+}
